@@ -38,9 +38,7 @@ public class Main {
 		int [ ] arrc , arr2 , bbb= {20};
 		int[ ]arrc1= {1,2} , arr21 , bbb1= {20},num= {1}, bo [];
 		
-		Object objectz,objectx;
-		Object objectY = new Object();
-		Object objectW = new Object();
+		
 		
 		
 		
