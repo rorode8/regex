@@ -11,9 +11,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import six
-import urllib3
-urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-target_url = "https://raw.githubusercontent.com/rorode8/regex/main/source.txt"
+
 
 
 # In[ ]:
@@ -58,7 +56,6 @@ target_url = "https://raw.githubusercontent.com/rorode8/regex/main/source.txt"
 text = file = open("input.txt").read()
 
 
-# print("xxxxxxxxxxx")
 purge = re.compile(r'(\/\/.*$|(\/\*)(\w|\s|\*[^\/])*(\*\/))',re.MULTILINE) #elimina comentarios
 text = purge.sub('',text)
 
