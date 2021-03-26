@@ -4,7 +4,7 @@
 2. escribir texto de entrada en input.txt
 3. correr `run.bat`
 
-la información debería desplegarse en la consola, además de una tabla de la libreria pandas
+la información debería desplegarse en la consola, además de una tabla de la libreria pandas que se guardara con el nombre "tabla.png"
 
 ## rigurosidad
 El programa puede leer los siguientes tipos de variables: int,short,long,double,float,byte,boolean,chat,String y Object
