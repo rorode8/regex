@@ -209,6 +209,8 @@ def render_mpl_table(data, col_width=3.0, row_height=0.625, font_size=14,
         else:
             cell.set_facecolor(row_colors[k[0]%len(row_colors) ])
     ax.set_title('Reconocedor de Declaraciones',size=20)
+    fig.savefig('tabla.png')
+    
     return ax
 
 
@@ -241,7 +243,12 @@ for typeData in variables:
 #print(variables)
 print('')
 print('A continuación se despliega una tabla con la información de cada tipo de dato')
+
 ax.plot()
+
+
+
+
 
 # In[ ]:
 

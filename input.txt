@@ -1,9 +1,48 @@
-int a,b,c = 2,d=4,arreglo[]={1,2,3,4};
-String cadena1,cadena2 = "cadenaprueba";
-int x,y,z[]=new int[10];
-double d1,d2=20,d3=10.3434,arr[]=new double[10],arr1[]={0.1};
-Object[] ob1,ob2;
-Object o1,o2,o3,  o4[];
-String cadena3,cadena4,cadena5[]={"hola","hola1"};
-char c1,c2,c3,c4,c6[];
-char l[],m[],p[],q[]={'a','b'};
+package main;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		// int freak = 60;
+		
+		/*
+		 * 
+		 */
+		
+		String fakeint = "int x=10;";
+		
+		String []sarr,k= {"22"};
+		
+		char c ='d';
+		boolean x = true;
+		byte bytes = 0b01;
+		char []bytess =new char [ 9 ] ;
+		int []arreglo1;
+		char chars = 'c';
+		
+		int aaaa=10, dddddd, rrrrrrr[]={1,2};
+		
+		int x99=100;
+		
+		Object obs = new Object();
+		Object obar[] = new Object[1];
+		
+		int []z, a= {1,2,3};
+		int kk=10,b;
+		int jkl     [] = {          1};
+		int arr1 [ ] ;
+		int arra []= new int[10];
+		int [ ] arrc , arr2 , bbb= {20};
+		int[ ]arrc1= {1,2} , arr21 , bbb1= {20},num= {1}, bo [];
+		
+		
+		
+		
+		
+		
+	}
+
+}
