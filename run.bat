@@ -1,2 +1,3 @@
-py regexDeVuelta.py
+python setup.py
+python regexDeVuelta.py
 pause
